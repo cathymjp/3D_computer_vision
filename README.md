@@ -2,20 +2,15 @@
 
 ## Environment
 - 3D Computer Vision (Fall 2019)
-- Languages: Matlab, Python
- - Pose estimation
- - Depth Map
+- Language: Matlab
+- Depth Map, Depth Optimization
  
 
 ## Description
 ### CV01
-Unsupervised 3D Pose Estimation with Geometric Self‐Supervision
-
-
-### CV02
-Monocular Depth Estimation Using Relative Depth Maps
-
-
-### CV03
 Depth Optimization
-
+- Sum-Modified Laplacian (SML) to optimze the depth of an image
+- Depth Cloud
+- Principal Component Analysis (PCA) to reduce dimensionality of data set
+- Rolling Guidance Filter to filter images with complete control of detail smoothing under a scale measure
+![image](https://user-images.githubusercontent.com/45842934/216312851-acb4e42d-b9ac-49fd-bfad-543eaee191a5.png)
